@@ -1,0 +1,59 @@
+
+.btn {
+	padding: 95px 0px 35px 0px;
+	margin: 0 auto;
+	width: 575px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 100px;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	
+	@media (min-width: 480px) {
+		width: 450px;
+	}
+	@media (min-width:320px) {
+	width: 300px;
+	
+	}
+	&__iteam {
+		background: $team_bg	;
+
+		border-radius: 4px;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: $var2;
+		padding: 6px ;
+		cursor: pointer;
+		transition: 0.2s;
+		border: none;
+		@media (min-width:480px) {
+			padding: 6px 24px	;
+		}
+	}
+	/* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: $var3;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .btn__iteam:hover {
+    background: #2196f3;
+	flex-wrap: wrap;
+    /* shadow-middle */
+	&:hover {
+		background: $var3;
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+	}
+}

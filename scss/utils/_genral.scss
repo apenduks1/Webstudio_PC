@@ -1,0 +1,33 @@
+hr {
+    background-color: $hr;
+    height: 1px;
+    width: 100%;
+}
+span {
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+.container {
+  margin: 0 auto;
+  @media (min-width: 320px) {
+    padding: 0 15px;
+    
+  }
+  @media (min-width: 768px) {
+    padding: 0;
+    max-width: 738px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 90%;
+  }
+}
+.hamburger {
+  @media (min-width:768px) {
+    display: none;
+  }
+}
