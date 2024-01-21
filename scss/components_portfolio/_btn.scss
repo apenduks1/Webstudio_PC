@@ -10,12 +10,12 @@
 	flex-wrap: wrap;
 	row-gap: 10px;
 	
-	@media (min-width: 480px) {
-		width: 450px;
-	}
-	@media (min-width:320px) {
-	width: 300px;
 	
+	@media (max-width:630px) {
+		max-width: 400px ;
+	}
+	@media (max-width:450px) {
+		max-width: 300px ;
 	}
 	&__iteam {
 		background: $team_bg	;
