@@ -20,9 +20,9 @@
       color: $var3;
     }
   }
-&__link:hover {
-  color: $var3;
-}
+  &__link:hover {
+    color: $var3;
+  }
   &__block {
     display: flex;
     gap: 93px;
@@ -45,7 +45,6 @@
     @media (min-width: 768px) {
       display: flex;
     }
-    
 
     a::after {
       color: $var3;
@@ -92,7 +91,7 @@
     @media (min-width: 768px) {
       display: block;
     }
-    @media (min-width:1200px) {
+    @media (min-width: 1200px) {
       display: flex;
       justify-content: space-between;
       gap: 5px;
